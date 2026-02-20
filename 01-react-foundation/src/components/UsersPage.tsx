@@ -1,5 +1,6 @@
 import { UseUsers } from "../hooks";
 import { UserRow } from "../components";
+import './usersPage.css';
 
 export const UsersPage = () => {
 
@@ -8,7 +9,7 @@ export const UsersPage = () => {
   return (
     <div>
       <h3>Users page</h3>
-      <table>
+      <table className="table-users">
         <thead>
           <tr>
             <th>Avatar</th>

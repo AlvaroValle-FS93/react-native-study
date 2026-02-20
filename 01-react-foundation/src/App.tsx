@@ -1,4 +1,4 @@
-import { LoginPage, UsersPage } from "./components"
+import { LoginPage, UsersPage, Form } from "./components"
 import { 
   /* BasicFunctions, */
   /* BasicTypes,  */
@@ -16,7 +16,8 @@ function App() {
         {/* <LiteralObjects/> */}
         {/* <BasicFunctions/> */}
         {/* <LoginPage/> */}
-        <UsersPage/>
+        {/* <UsersPage/> */}
+        <Form />
 
       </main>
     </>
